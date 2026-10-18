@@ -48,7 +48,7 @@ section{border-top:1px dashed var(--line);margin-top:22px}section:first-child{bo
 .p::before{content:"";}
 .hero.out{position:relative;padding:20px;border:1px solid #22332c;border-radius:8px;overflow:hidden;background:linear-gradient(135deg,rgba(110,231,168,.07),rgba(127,212,230,.03) 55%,transparent)}
 .hero>*:not(canvas){position:relative;z-index:1}
-.hero img{width:160px;height:184px;border:1px solid var(--line)}
+.hero img{width:clamp(200px,24vw,250px);height:auto;aspect-ratio:150/172;border:1px solid var(--line)}
 h1{text-shadow:0 0 26px rgba(110,231,168,.28)}
 .role{font-size:16px;text-shadow:0 0 14px rgba(110,231,168,.45)}
 .role::after{content:"";display:inline-block;width:.55em;height:1em;margin-left:3px;background:var(--g);vertical-align:text-bottom;animation:bl 1.1s steps(1) infinite}
