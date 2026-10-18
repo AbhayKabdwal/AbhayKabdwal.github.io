@@ -107,7 +107,7 @@ h2.sec i::before{content:"\00a7\00a0"}
 .bib{margin:8px 0;padding:10px 14px;border:1px dashed #33403a;border-radius:4px;color:#7d9a8a;font:13px/1.6 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap}
 .card:hover,.hop:hover{transform:none}
 footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
-@media(max-width:560px){.ent{grid-template-columns:1fr;gap:0}.hero img{width:clamp(150px,45vw,200px)}.row,.news .row{grid-template-columns:1fr}.win{margin:0;border-radius:0;border-left:0;border-right:0}main{padding:6px 16px 24px}}
+@media(max-width:560px){.ent{grid-template-columns:1fr;gap:0}.hero img{width:clamp(200px,45vw,230px)}.row,.news .row{grid-template-columns:1fr}.win{margin:0;border-radius:0;border-left:0;border-right:0}main{padding:6px 16px 24px}}
 @media(prefers-reduced-motion:reduce){.cur{animation:none}html{scroll-behavior:auto}}
 
 /* live-typed tagline */
